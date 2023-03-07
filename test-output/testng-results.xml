@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-06T22:11:27 IST" name="MainSuite" finished-at="2023-03-06T22:11:27 IST" duration-ms="65">
+    <groups>
+    </groups>
+    <test started-at="2023-03-06T22:11:27 IST" name="Test" finished-at="2023-03-06T22:11:27 IST" duration-ms="65">
+      <class name="TestNGPractice.TC02VerifyCartPage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestNGPractice.TC02VerifyCartPage@550dbc7a]" started-at="2023-03-06T22:11:27 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887503" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LogInFunctionality()[pri:0, instance:TestNGPractice.TC02VerifyCartPage@550dbc7a]" started-at="2023-03-06T22:11:27 IST" name="LogInFunctionality" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887519" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInFunctionality -->
+        <test-method signature="CartPage()[pri:0, instance:TestNGPractice.TC02VerifyCartPage@550dbc7a]" started-at="2023-03-06T22:11:27 IST" name="CartPage" finished-at="2023-03-06T22:11:27 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPage -->
+        <test-method is-config="true" signature="LogOutFunctionality()[pri:0, instance:TestNGPractice.TC02VerifyCartPage@550dbc7a]" started-at="2023-03-06T22:11:27 IST" name="LogOutFunctionality" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887531" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFunctionality -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNGPractice.TC02VerifyCartPage@550dbc7a]" started-at="2023-03-06T22:11:27 IST" name="CloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887533" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNGPractice.TC02VerifyCartPage -->
+      <class name="TestNGPractice.TC01VerifyHomePage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestNGPractice.TC01VerifyHomePage@3e11f9e9]" started-at="2023-03-06T22:11:27 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887503" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LogInFunctionality()[pri:0, instance:TestNGPractice.TC01VerifyHomePage@3e11f9e9]" started-at="2023-03-06T22:11:27 IST" name="LogInFunctionality" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887519" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInFunctionality -->
+        <test-method signature="VerifyHomePage()[pri:0, instance:TestNGPractice.TC01VerifyHomePage@3e11f9e9]" started-at="2023-03-06T22:11:27 IST" name="VerifyHomePage" finished-at="2023-03-06T22:11:27 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePage -->
+        <test-method is-config="true" signature="LogOutFunctionality()[pri:0, instance:TestNGPractice.TC01VerifyHomePage@3e11f9e9]" started-at="2023-03-06T22:11:27 IST" name="LogOutFunctionality" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887531" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFunctionality -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNGPractice.TC01VerifyHomePage@3e11f9e9]" started-at="2023-03-06T22:11:27 IST" name="CloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887535" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNGPractice.TC01VerifyHomePage -->
+      <class name="TestNGPractice.TC03VerifyBuyPage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestNGPractice.TC03VerifyBuyPage@21282ed8]" started-at="2023-03-06T22:11:27 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887498" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="LogInFunctionality()[pri:0, instance:TestNGPractice.TC03VerifyBuyPage@21282ed8]" started-at="2023-03-06T22:11:27 IST" name="LogInFunctionality" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887519" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInFunctionality -->
+        <test-method signature="VerifyPage()[pri:0, instance:TestNGPractice.TC03VerifyBuyPage@21282ed8]" started-at="2023-03-06T22:11:27 IST" name="VerifyPage" finished-at="2023-03-06T22:11:27 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in H:\workspaceECLIPSE\SELENIUM\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPage -->
+        <test-method is-config="true" signature="LogOutFunctionality()[pri:0, instance:TestNGPractice.TC03VerifyBuyPage@21282ed8]" started-at="2023-03-06T22:11:27 IST" name="LogOutFunctionality" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887533" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutFunctionality -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNGPractice.TC03VerifyBuyPage@21282ed8]" started-at="2023-03-06T22:11:27 IST" name="CloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678120887534" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNGPractice.TC03VerifyBuyPage -->
+    </test> <!-- Test -->
+  </suite> <!-- MainSuite -->
+</testng-results>
